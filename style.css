@@ -1,8 +1,88 @@
-body {
- display: flex;
- flex-direction: column;
- align-items: center;
- background-color: rgb(55, 51, 83);
+a{
+   text-decoration: none; 
+   color: rgb(204, 232, 232);
+}
+
+.boton a{
+
+    color: rgb(48, 79, 86);
+}
+
+
+ul{
+    
+list-style-type: none;
+margin: 10px;
+}
+
+
+.header {
+display: flex;
+justify-content:space-between;
+background-color: rgb(44, 44, 83);
+
+}
+
+.links{
+    display: flex;
+    justify-content: row;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.intro{
+
+    background-color: rgb(44, 44, 83);
+    display: flex;
+    justify-content: row;
+    padding: 40px; 
+
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title{
+
+    color: gray;
+}
+
+.boton{
+
+    background-image: "boton.jpg" ;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.gallery{
+
+    display: flex;
+    flex-direction:column;
+    margin: 40px;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.photos{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info{
+    max-width: 50px;
 
 
 }
+
