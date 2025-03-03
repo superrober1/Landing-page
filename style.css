@@ -75,14 +75,63 @@ background-color: rgb(44, 44, 83);
 .photos{
 
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
+
+    
 }
 
 .info{
-    max-width: 50px;
-
+    max-width: 100px;
+    text-align: center;
+    
 
 }
 
+.info img{
+
+    border-radius: 20px;
+}
+
+
+.quote {
+background-color:#e5e7eb;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding:50px 120px 50px 120px;
+font-size: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+font-weight: lighter;
+color:#1f2937;
+
+}
+
+.sign{
+    margin:50px 90px 50px 90px;
+    display: flex;
+    background-color:#3882f6;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.boton2{
+
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3882f6; 
+
+}
+
+.footer {
+
+    background-color: rgb(35, 33, 54);
+    color: aliceblue;
+    text-align: center;
+}
