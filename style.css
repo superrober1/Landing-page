@@ -19,7 +19,7 @@ margin: 10px;
 .header {
 display: flex;
 justify-content:space-between;
-background-color: rgb(44, 44, 83);
+background-color:#1f2937;
 
 }
 
@@ -28,15 +28,17 @@ background-color: rgb(44, 44, 83);
     justify-content: row;
     gap: 30px;
     align-items: center;
+    padding-right: 100px;
 
 }
 
 .intro{
 
-    background-color: rgb(44, 44, 83);
+    background-color:#1f2937;
     display: flex;
     justify-content: row;
     padding: 40px; 
+    padding-bottom: 100px;
 
 }
 
@@ -45,6 +47,10 @@ background-color: rgb(44, 44, 83);
     flex-direction: column;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 90px;
+    margin-left: 120px;
+    flex-wrap: wrap;
+    
 }
 
 .title{
@@ -134,4 +140,14 @@ color:#1f2937;
     background-color: rgb(35, 33, 54);
     color: aliceblue;
     text-align: center;
+}
+
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    
 }
